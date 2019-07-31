@@ -1,0 +1,123 @@
+
+
+body
+{
+    background-image: url('../images/BACKGROUND.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#Grid
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/BACK_GRID.png');
+    background-repeat: repeat;
+    background-size: auto;
+    
+}
+
+#Incabinbody
+{
+    position: absolute;
+    width: 1760;
+    height: 840;
+    margin-left: 40px;
+    margin-top: 60px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-style: solid; border-width: 0.5px; border-color: rgba(255, 255, 255, 0.3);
+}
+
+#RealtimeView
+{
+    width: 60%;
+    height: 100%;
+    background-color: rgba(255, 0, 255, 0);
+}
+
+#imgCar
+{
+    position: absolute;
+    width: 990;
+    height: 550;
+    top: 100px;
+    left: 60px;
+
+}
+
+#GridProperty
+{
+    position: absolute;
+    width: 640px;
+    height: 100%;
+    top: 0px;
+    left: 1120px;
+    background-color: rgba(255, 255, 0, 0);
+}
+
+#GridSubProperty
+{
+    position: absolute;
+
+    width: 560px;
+    height: 680px;
+    top: 40px;
+    left: 40px;
+    background-color: rgba(127, 211, 211, 0.1);
+
+}
+
+#GridSubProperty1
+{
+    width: 100%;
+    height: 180px;
+    background-color: rgba(127, 211, 211, 0);
+
+}
+
+#GridSubProperty2
+{
+    width: 100%;
+    height: 220px;
+    background-color: rgba(127, 211, 211, 0.1);
+}
+
+#GridSubProperty3
+{
+    width: 100%;
+    height: 280px;
+    background-color: rgba(127, 211, 211, 0);
+}
+
+#GridButton
+{
+    position: absolute;
+    width: 560px;
+    height: 60px;
+    left: 40px;
+    top: 740px;
+    background-color: rgba(127, 0, 211, 0);
+}
+
+.ButtonSwitch
+{
+    float: right;
+    width: 160px;
+    height: 60px;
+    background-color:  transparent;
+    border: 2px solid rgba(0, 255, 12, 0.4);
+    color: rgba(0, 255, 12, 0.4);
+    font-size: 30px;
+    transition-duration: 0.2s;
+}
+
+.ButtonSwitch:hover
+{
+    background-color: rgba(0, 255, 12, 0.1);
+}
+
+.ButtonSwitch:active
+{
+    background-color: rgba(0, 255, 12, 0.2);
+}
