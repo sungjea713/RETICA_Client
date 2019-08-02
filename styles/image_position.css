@@ -46,6 +46,29 @@ body
 
 }
 
+#imgRadarGrid
+{
+    position: absolute;
+    top: 145px;
+    left: 250px;
+    
+}
+
+#imgRadarBeam
+{
+    position: absolute;
+    /*top: 145px;
+    left: 250px; */
+    top: 173px;
+    left: 278px;
+    animation: rotateBeam 2s infinite;
+}
+
+@keyframes rotateBeam
+{
+    100% {transform: rotate(720deg);}
+}
+
 #GridProperty
 {
     position: absolute;
